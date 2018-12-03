@@ -3,3 +3,6 @@ venv
 *.jpg
 dataset/*/*/*/*.txt
 *.avi
+*.tar.gz
+*.pb
+*.record
