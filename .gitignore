@@ -6,3 +6,4 @@ dataset/*/*/*/*.txt
 *.tar.gz
 *.pb
 *.record
+*.pbtxt
