@@ -1,5 +1,7 @@
 # Using TensorFlow's Object Detection API
 
+This chapter introduces you to the [TensorFlow's Object Detection API](https://github.com/tensorflow/models/blob/master/research/object_detection), which is a repository with trained object detection models.
+
 This may be the easiest way to get and object detection system up and running. It may even work pretty well on several circumstances, specially if your dataset is similar to those in which the provided models have been trained on (see the [official model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)).
 
 In this chapter has two goals:
@@ -14,7 +16,7 @@ Before we start, make sure you add the project directory to the PYTHONPATH varia
 # From root project directory
 export PYTHONPATH=$PYTHONPATH:`pwd`
 ```
-Otherwise, [TensorFlow's Object Detection API](https://github.com/tensorflow/models/blob/master/research/object_detection) would not work.
+Otherwise, the API would not work.
 
 ## Understanding our data
 
@@ -22,8 +24,8 @@ It is very important to explore our dataset first. Download the data from [this 
 
 ## Using an off-the-shelf detector
 
-All instructions for runing an off-the-shelf detector are in the [off-the-shelf notebook](), please read it thoroughly.
+All instructions for runing an off-the-shelf detector are in the [off-the-shelf notebook](off_the_shelf.ipynb), please read it thoroughly.
 
 ## Finetuning a detector
 
-This task is a bit more complicated. To start, we need to format the training data in the way that is expected by the [TensorFlow's Object Detection API](https://github.com/tensorflow/models/blob/master/research/object_detection)
+This task is a bit more complicated. To start, we need to format the training data in the way that is expected by the API.

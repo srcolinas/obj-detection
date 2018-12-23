@@ -7,3 +7,4 @@ dataset/*/*/*/*.txt
 *.pb
 *.record
 *.pbtxt
+.vscode
